@@ -1,0 +1,19 @@
+require("./xyz");
+
+let {x, calculateSum} = require("./sum");
+
+
+var name = "Namaste NodeJs";
+
+var a = 10;
+var b = 20;
+
+// console.log(name);
+// console.log(a + b);
+
+// console.log(global);
+// console.log(this);
+
+calculateSum(a, b);
+
+console.log(x);
